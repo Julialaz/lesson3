@@ -5,16 +5,22 @@
     </head>
     <body>
         <table border="1">
-            <th rowspan=3>My table</th>
             <tr>
-                <td>One</td>
-                <td>Two</td>
+                <th rowspan="4">Car sale</th>
+                <th>Title</th>
+                <th>Price</th>
             </tr>
             <tr>
-                <td colspan=2>Three</td>
+                <td>BMW</td>
+                <td>$100K</td>
             </tr>
+            <tr>
+                <td>Mercedes</td>
+                <td>$120K</td>
+            </tr>
+            <td colspan="2">Total:$220K</td>
         </table>
-        <ol>
+        <ol>Ordered list by default:
             <li>One</li>
             <li>Two
                 <ol start="2.1">
@@ -24,7 +30,7 @@
             </li>
             <li>Three</li>
         </ol>
-                <ol reversed>
+        <ol reversed>Ordered list reversed:
             <li>One</li>
             <li>Two
                 <ol start="5" reversed>
@@ -34,20 +40,17 @@
             </li>
             <li>Three</li>
         </ol>
-        <ol>
-            <li>One</li>
-            <li>Two
-        <ul>
+        <ul>Unordered list by default:
             <li>One</li>
             <li>Two</li>
             <li>Three</li>
         </ul>
-        <ul type="square">
+        <ul type="square">Unordered list sguare:
             <li>One</li>
             <li>Two</li>
             <li>Three</li>
         </ul>
-        <ul type="circle">
+        <ul type="circle">Unordered list circle:
             <li>One</li>
             <li>Two</li>
             <li>Three</li>
